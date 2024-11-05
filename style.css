@@ -1,0 +1,243 @@
+:root {
+    --color-1: #272727;
+    --color-2: rgba(39, 39, 39, 0.60);
+    --color-3: #E55473;
+}
+
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.bnnr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bnnr-txt {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bnnr-txt h4 {
+    color: var(--color-1);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.bnnr-txt p {
+    color: var(--color-2);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.bnnr-img img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    background-color: var(--color-3);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 45px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ft-title,
+.ft-desc {
+    text-align: center;
+}
+
+.ft-title {
+    color: var(--color-1);
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+
+.ft-desc {
+    color: var(--color-2);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.ft-cont {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0px 240px 30px 240px;
+}
+
+.ft-cont .ft-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 76px 0px 76px;
+}
+
+.ft-cont .ft-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 120px 50px 50px 50px;
+}
+
+.ft-cont .ft-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 70px 75px 0px 75px;
+}
+
+.ft-img-txt {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.ft-img-txt #ft-txt {
+    color: var(--color-1);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.srv-cont {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 110px;
+    padding: 85px 175px;
+    gap: 0px 40px;
+    text-align: center;
+    color: var(--color-2);
+    font-weight: 600;
+}
+
+.sale-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 130px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sale-cont .sale-txt {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.sale-cont .sale-txt h4 {
+    color: var(--color-1);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.sale-cont .sale-txt h4 #off {
+    color: var(--color-3);
+}
+
+.sale-cont .sale-txt p {
+    color: var(--color-2);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.sale-cont .sale-img {
+    margin: 100px;
+}
+
+.ig-cont {
+    display: flex;
+    justify-content: center;
+    gap: 10px 25px;
+    margin: 0px 140px 130px 140px;
+}
+
+.ig-cont img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-cont {
+    text-align: center;
+    background-image: url("media/Rectangle 9.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-bottom: 130px;
+    background-size: cover;
+}
+
+.sub-cont .sub-txt {
+    margin-bottom: 50px;
+}
+
+.sub-cont .sub-txt h4 {
+    color: var(--color-1);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.sub-cont .sub-txt p {
+    color: var(--color-2);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-cont .sub-area input {
+    border-radius: 10px;
+    border: none;
+    width: 700px;
+    height: 60px;
+    outline: none;
+    margin-right: 16px;
+}
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+footer .ft-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+footer .ft-title #flower {
+    color: var(--color-3);
+}
+
+footer .ft-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+ 
